@@ -34,14 +34,14 @@
         background-image: url("../img/fondo-figma.png");
         background-size: cover;
         background-color: blueviolet;
-        
+        height: 100%;
         
        
         
 
     }
 .container-des{
-        height: 100%;
+       
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 100px 1fr 200px;
@@ -55,6 +55,7 @@
         
         background-size: cover;
         // background-color: blueviolet;
+        height: 100%;
        
 }
 
@@ -72,10 +73,12 @@
     
     background-image: url("../img/lamparas-colgantes-1536x958.jpg");
     background-size: cover;
+    background-attachment: fixed;
     background-color: blueviolet;
     
     
-    
+    height: 100%;
+    width: 100%;
     
    
 }
@@ -98,14 +101,16 @@
     ;
     background-image: url("../img/fondo-figma.png");
     background-size: cover;
+    
     background-color: purple;
-
+    height: 100%;
    
 }
 @media screen and (max-width: 580px){
     
     .container-ti{
         grid-template-rows: 280px 1fr 200px;
+        height: 100%;
     }
     .container-aca{
         grid-template-rows: 280px 1fr 200px;

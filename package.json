@@ -1,0 +1,19 @@
+{
+  "name": "sass-3-pre",
+  "version": "1.0.0",
+  "description": "se volvio a generar toda la web con sass se incluyeron herramientas de S.E.O , se termino de completar el responsive web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxi-polatto/3-pre-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxi-polatto/3-pre-sass/issues"
+  },
+  "homepage": "https://github.com/maxi-polatto/3-pre-sass#readme"
+}
