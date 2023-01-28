@@ -14,7 +14,7 @@
         ;
         background-image: url("../img/fondo-lamparas-vintage.png");
         background-size: cover;
-        // background-color: blueviolet;
+       
         height: 100vh;
         width: 100%;
     
@@ -31,9 +31,9 @@
         "main"      
         "footer"
         ;
-        background-image: url("../img/fondo-figma.png");
-        background-size: cover;
-        background-color: blueviolet;
+        // background-image: url("../img/fondo-figma.png");
+        // background-size: cover;
+        background-color: rgba(29, 43, 57, 1);
         height: 100%;
         
        
@@ -51,10 +51,10 @@
         "footer"
         ;
         
-        background-image: url("../img/fondo-figma.png");
+        // background-image: url("../img/fondo-figma.png");
         
-        background-size: cover;
-        // background-color: blueviolet;
+        // background-size: cover;
+        background-color:  rgba(29, 43, 57, 1);
         height: 100%;
        
 }
@@ -99,10 +99,11 @@
     "main"      
     "footer"
     ;
-    background-image: url("../img/fondo-figma.png");
-    background-size: cover;
+    background-color:rgba(29, 43, 57, 1);
+    // background-image: url("../img/fondo-figma.png");
+    // background-size: cover;
     
-    background-color: purple;
+    
     height: 100%;
    
 }
@@ -118,4 +119,10 @@
     .container-des{
         grid-template-rows: 280px 1fr 200px;
     }
+}
+@media screen and (max-width: 330px){
+
+.container-idx{
+    height: 100%;
+}
 }

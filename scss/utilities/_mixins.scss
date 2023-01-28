@@ -20,10 +20,10 @@
     display: block;       
     border: 3px solid white;
     border-radius: 10px;
-    background-color:gray;
-    box-shadow: 19px 18px 21px -4px rgba(147,142,142,0.6);
-    -webkit-box-shadow: 19px 18px 21px -4px rgba(147,142,142,0.6);
-    -moz-box-shadow: 19px 18px 21px -4px rgba(147,142,142,0.6);
+    background-color:rgb(190, 188, 188);
+    box-shadow: 15px 14px 16px -4px rgba(147,142,142,0.6);
+    -webkit-box-shadow: 14px 13px 16px -4px rgba(147,142,142,0.6);
+    -moz-box-shadow: 14px 13px 16px -4px rgba(147,142,142,0.6);
     height: 350px;
     width: 240px;
     text-align: center;
@@ -37,5 +37,16 @@
     }
     button{
        color: red;
+       height: 40px;
+       border-radius: 0px 0px 8px 8px;
+    }
+    p{
+        color: black;
+        font-size: map-get( $f-px , parrafo-cel );
+        // font-family: map-get( $f-type , titulo );
+        font-weight: map-get( $f-weight , parrafo-cel );
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        text-align: center; 
     }
 }

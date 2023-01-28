@@ -75,6 +75,18 @@ a:hover {
     padding-bottom: 10px;
   }
 }
+@media screen and (max-width: 512px) {
+  .nav-bar {
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-bar div {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+  }
+}
 .container-idx {
   display: grid;
   grid-template-columns: 1fr;
@@ -91,9 +103,7 @@ a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: 100px 1fr 200px;
   grid-template-areas: "header" "main" "footer";
-  background-image: url("../img/fondo-figma.png");
-  background-size: cover;
-  background-color: blueviolet;
+  background-color: rgb(29, 43, 57);
   height: 100%;
 }
 
@@ -102,8 +112,7 @@ a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: 100px 1fr 200px;
   grid-template-areas: "header" "main" "footer";
-  background-image: url("../img/fondo-figma.png");
-  background-size: cover;
+  background-color: rgb(29, 43, 57);
   height: 100%;
 }
 
@@ -127,9 +136,7 @@ a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: 100px 1fr 200px;
   grid-template-areas: "header" "main" "footer";
-  background-image: url("../img/fondo-figma.png");
-  background-size: cover;
-  background-color: purple;
+  background-color: rgb(29, 43, 57);
   height: 100%;
 }
 
@@ -143,6 +150,11 @@ a:hover {
   }
   .container-des {
     grid-template-rows: 280px 1fr 200px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .container-idx {
+    height: 100%;
   }
 }
 div footer {
@@ -303,10 +315,10 @@ main .aca p {
   display: block;
   border: 3px solid white;
   border-radius: 10px;
-  background-color: gray;
-  box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -webkit-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -moz-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
+  background-color: rgb(190, 188, 188);
+  box-shadow: 15px 14px 16px -4px rgba(147, 142, 142, 0.6);
+  -webkit-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
+  -moz-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
   height: 350px;
   width: 240px;
   text-align: center;
@@ -320,6 +332,16 @@ main .aca p {
 }
 .card-1 button {
   color: red;
+  height: 40px;
+  border-radius: 0px 0px 8px 8px;
+}
+.card-1 p {
+  color: black;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
 .card-1 .img-card {
   width: 100%;
@@ -334,10 +356,10 @@ main .aca p {
   display: block;
   border: 3px solid white;
   border-radius: 10px;
-  background-color: gray;
-  box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -webkit-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -moz-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
+  background-color: rgb(190, 188, 188);
+  box-shadow: 15px 14px 16px -4px rgba(147, 142, 142, 0.6);
+  -webkit-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
+  -moz-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
   height: 350px;
   width: 240px;
   text-align: center;
@@ -351,6 +373,16 @@ main .aca p {
 }
 .card-2 button {
   color: red;
+  height: 40px;
+  border-radius: 0px 0px 8px 8px;
+}
+.card-2 p {
+  color: black;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
 .card-2 .img-card {
   width: 100%;
@@ -365,10 +397,10 @@ main .aca p {
   display: block;
   border: 3px solid white;
   border-radius: 10px;
-  background-color: gray;
-  box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -webkit-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -moz-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
+  background-color: rgb(190, 188, 188);
+  box-shadow: 15px 14px 16px -4px rgba(147, 142, 142, 0.6);
+  -webkit-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
+  -moz-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
   height: 350px;
   width: 240px;
   text-align: center;
@@ -382,6 +414,16 @@ main .aca p {
 }
 .card-3 button {
   color: red;
+  height: 40px;
+  border-radius: 0px 0px 8px 8px;
+}
+.card-3 p {
+  color: black;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
 .card-3 .img-card {
   width: 100%;
@@ -396,10 +438,10 @@ main .aca p {
   display: block;
   border: 3px solid white;
   border-radius: 10px;
-  background-color: gray;
-  box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -webkit-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
-  -moz-box-shadow: 19px 18px 21px -4px rgba(147, 142, 142, 0.6);
+  background-color: rgb(190, 188, 188);
+  box-shadow: 15px 14px 16px -4px rgba(147, 142, 142, 0.6);
+  -webkit-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
+  -moz-box-shadow: 14px 13px 16px -4px rgba(147, 142, 142, 0.6);
   height: 350px;
   width: 240px;
   text-align: center;
@@ -413,6 +455,16 @@ main .aca p {
 }
 .card-4 button {
   color: red;
+  height: 40px;
+  border-radius: 0px 0px 8px 8px;
+}
+.card-4 p {
+  color: black;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
 .card-4 .img-card {
   width: 100%;
