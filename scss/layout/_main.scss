@@ -145,7 +145,7 @@ main .aca{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-        
+      
     
    }
    
@@ -268,4 +268,9 @@ main .aca{
     
 }
 }
+}
+@media screen and (max-width: 513px){
+    .main-ct{
+        margin-top: 130px;
+    }
 }
