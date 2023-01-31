@@ -1,7 +1,19 @@
 
-# tercera-pre-entrega
+# Entrega final
 
-se volvio a generar toda la web con sass se incluyeron herramientas de S.E.O , se termino de completar el responsive web.
+Se genero un sitio web completamente responsive utilizando los recursos incorporados durante el curso.  a medida que este avanzo se fueron adquiriendo nuevos conocimientos y estos trasladondose al proyecto por ejemplo la utilización de  SASS . que no reemplaza los conocientos anteriores pero si no modifico la forma de procesar estilos en css .gid 
+Para llevar a cabo este trabajo utilizamos:
+html5
+css:
+    flexbox
+    grid
+    ::hover
+    etc.
+sass
+boostrap
+github
+
+
 
 
 
