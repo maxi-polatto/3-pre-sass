@@ -33,6 +33,19 @@ div footer{
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
+   
+    .icons a img:last-child{
+        display: none;
+    }
+    .icons a:hover img:last-child{
+        display: block;
+        transition: 800ms;
+    }
+    .icons a:hover img:first-child{
+        display: none;
+    }
+
+
     @media screen and (max-width: 580px){
         
 
